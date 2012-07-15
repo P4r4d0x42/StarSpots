@@ -60,7 +60,7 @@ while true:
     spheren.append(sphere(frame=cube, pos=(x, y, z),
     radius=(getrand('radius')),
     color=(r, g, b),
-    material=materials.wood, opacity=getrand('opacity')))
+    material=materials.diffuse, opacity=getrand('opacity')))
 
     if count % 3:
         #spheren[count].visible = False
